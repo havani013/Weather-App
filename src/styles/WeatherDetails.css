@@ -1,0 +1,33 @@
+/* WeatherDetails.css */
+
+.weather-details {
+    padding: 20px;
+  }
+  
+  .weather-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-controls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .weather-forecast {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .forecast-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+  }
+  

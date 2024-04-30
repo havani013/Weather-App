@@ -1,0 +1,20 @@
+.footer {
+  background-color: #270870;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media(max-width: 767px) {
+  .footer {
+    position: fixed;
+  }
+}
